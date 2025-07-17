@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: ms-users
-          image: arturbdev/ms-users:latest
+          image: arturbdev/ms-users:REPLACE_TAG
           ports:
             - containerPort: 8080
           readinessProbe:
