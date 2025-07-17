@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: ms-users
-          image: arturbdev/ms-users:v0.0.3
+          image: arturbdev/ms-users:v0.0.4
           ports:
             - containerPort: 8080
           readinessProbe:
